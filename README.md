@@ -25,6 +25,7 @@ Endpoints should be logically organized around collections and elements, both of
 | moviecreate     | POST        | CREATE        |Create a new movie   |
 | movieupdate/:id | PUT         | UPDATE        |Update a movie       |
 | DeleteMovie/:id | DELETE      | DELETE        |Delete a movie       |
+| MovieSearch/:moviename | GET  | SEARCH        |Search a movie       |
 
 ## Use
 We can test the API using [curl](https://curl.se/) or we can use [Postman](https://www.postman.com/)
