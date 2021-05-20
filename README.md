@@ -15,6 +15,11 @@ python -m venv env
 After this, it is necessary to activate the virtual environment, you can get more information about this 
 [here](https://docs.python.org/3/tutorial/venv.html)
 
+You can install all the required dependencies by running
+```
+pip install -r requirements.txt
+```
+
 ## Structure
 In a RESTful API, endpoints (URLs) define the structure of the API and how end users access data from our application using the HTTP methods -GET, POST, PUT, DELETE. 
 Endpoints should be logically organized around collections and elements, both of which are resources.
